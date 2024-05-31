@@ -4,7 +4,9 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Welcome to the BlogApp</p>
-    <a class="btn btn-primary" href="/BlogPosts">Go to Blog Posts</a>
-    <a class="btn btn-secondary" href="/Category">Go to Categories</a>
+    <p class="lead">Welcome to the BlogApp</p>
+    <div class="main-buttons">
+        <a class="btn btn-primary" asp-controller="BlogPosts" asp-action="Index">Go to Blog Posts</a>
+        <a class="btn btn-info" asp-controller="Category" asp-action="Index">Go to Categories</a>
+    </div>
 </div>

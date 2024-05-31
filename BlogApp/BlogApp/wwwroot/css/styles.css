@@ -1,0 +1,146 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+header .navbar-brand {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+    header .navbar-nav .nav-link {
+        color: white;
+        margin-right: 15px;
+        font-size: 1.2em;
+    }
+
+        header .navbar-nav .nav-link:hover {
+            color: #adb5bd;
+        }
+
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+    .table th, .table td {
+        border: 1px solid #dee2e6;
+        padding: 8px;
+    }
+
+    .table th {
+        background-color: #e9ecef;
+    }
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    top: 155px;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.control-label{
+    font-weight: bold;
+}
+.form-control {
+    border: solid 1px;
+    border-radius: 8px;
+}
+.form-group {
+    padding-bottom: 12px;
+}
+
+body > div > main > div:nth-child(5) > a {
+    margin-top: -7px;
+    padding: 7px;
+    background: green;
+    color: white;
+    border-radius: 11px;
+}
+
+.nav-item{
+    padding-right: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+    .main-buttons a {
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+    }
